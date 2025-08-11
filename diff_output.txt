@@ -1,0 +1,657 @@
+Only in fiseye: .git
+Binary files fiseye/.gradle/8.13/checksums/checksums.lock and Native_template/.gradle/8.13/checksums/checksums.lock differ
+Only in fiseye/.gradle/8.13/checksums: md5-checksums.bin
+Only in fiseye/.gradle/8.13/checksums: sha1-checksums.bin
+Only in fiseye/.gradle/8.13: executionHistory
+Only in fiseye/.gradle/8.13/fileChanges: last-build.bin
+Only in fiseye/.gradle/8.13/fileHashes: fileHashes.bin
+Binary files fiseye/.gradle/8.13/fileHashes/fileHashes.lock and Native_template/.gradle/8.13/fileHashes/fileHashes.lock differ
+Only in fiseye/.gradle/8.13/fileHashes: resourceHashesCache.bin
+Only in fiseye/.gradle/8.13: gc.properties
+Only in fiseye/.gradle/8.13: vcsMetadata
+Binary files fiseye/.gradle/buildOutputCleanup/buildOutputCleanup.lock and Native_template/.gradle/buildOutputCleanup/buildOutputCleanup.lock differ
+diff -r fiseye/.gradle/buildOutputCleanup/cache.properties Native_template/.gradle/buildOutputCleanup/cache.properties
+1c1
+< #Sun Aug 10 16:31:33 ICT 2025
+---
+> #Mon Aug 11 16:10:02 ICT 2025
+Only in fiseye/.gradle/buildOutputCleanup: outputFiles.bin
+diff -r fiseye/.gradle/config.properties Native_template/.gradle/config.properties
+1c1
+< #Sun Aug 10 16:31:31 ICT 2025
+---
+> #Mon Aug 11 16:09:59 ICT 2025
+Only in fiseye/.gradle: file-system.probe
+Only in fiseye/.gradle: vcs-1
+Only in fiseye/.idea: .gitignore
+Only in fiseye/.idea: caches
+Only in fiseye/.idea: compiler.xml
+Only in fiseye/.idea: deploymentTargetSelector.xml
+Only in fiseye/.idea: deviceManager.xml
+diff -r fiseye/.idea/gradle.xml Native_template/.idea/gradle.xml
+3d2
+<   <component name="GradleMigrationSettings" migrationVersion="1" />
+10,15d8
+<         <option name="modules">
+<           <set>
+<             <option value="$PROJECT_DIR$" />
+<             <option value="$PROJECT_DIR$/app" />
+<           </set>
+<         </option>
+diff -r fiseye/.idea/misc.xml Native_template/.idea/misc.xml
+4c4
+<   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+---
+>   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7">
+Only in fiseye/.idea: studiobot.xml
+Only in fiseye/.idea: vcs.xml
+diff -r fiseye/.idea/workspace.xml Native_template/.idea/workspace.xml
+3,14d2
+<   <component name="AndroidLayouts">
+<     <shared>
+<       <config />
+<     </shared>
+<     <layouts>
+<       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+<         <config>
+<           <theme>@style/Theme.MaterialComponents.DayNight.DarkActionBar</theme>
+<         </config>
+<       </layout>
+<     </layouts>
+<   </component>
+19c7
+<     <list default="true" id="585d2556-66b6-497d-8f97-ea65f87c64bb" name="Changes" comment="" />
+---
+>     <list default="true" id="0eecfeb2-96c5-43d8-88ef-67e7e8d7c131" name="Changes" comment="" />
+28,33d15
+<   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/trancaonguyennguyen/.android/avd/Medium_Phone.avd)]" />
+<   <component name="ExternalProjectsData">
+<     <projectState path="$PROJECT_DIR$">
+<       <ProjectState />
+<     </projectState>
+<   </component>
+39,44c21
+<             <expand>
+<               <path>
+<                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+<                 <item name="fiseye" type="f1a62948:ProjectNode" />
+<               </path>
+<             </expand>
+---
+>             <expand />
+51,63c28,31
+<   <component name="Git.Settings">
+<     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+<   </component>
+<   <component name="HighlightingSettingsPerFile">
+<     <setting file="file://$PROJECT_DIR$/app/src/main/java/com/example/fiseye/MainActivity.kt" root0="SKIP_INSPECTION" />
+<   </component>
+<   <component name="ProblemsViewState">
+<     <option name="selectedTabId" value="CurrentFile" />
+<   </component>
+<   <component name="ProjectColorInfo">{
+<   &quot;associatedIndex&quot;: 0
+< }</component>
+<   <component name="ProjectId" id="315eJnrWpeQRojLQ5c2k75De1yr" />
+---
+>   <component name="ProjectColorInfo"><![CDATA[{
+>   "associatedIndex": 2
+> }]]></component>
+>   <component name="ProjectId" id="318QoraCK7cFxdW1fCeqZIp5bp0" />
+70d37
+<     "Android App.app.executor": "Run",
+73d39
+<     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+75d40
+<     "RunOnceActivity.git.unshallow": "true",
+76a42
+>     "android.gradle.sync.needed": "true",
+78,81c44
+<     "cidr.known.project.marker": "true",
+<     "git-widget-placeholder": "main",
+<     "run.code.analysis.last.selected.profile": "pProject Default",
+<     "settings.editor.selected.configurable": "com.android.studio.ml.bot.mainConfigurable"
+---
+>     "cidr.known.project.marker": "true"
+84,157d46
+<   <component name="RunManager">
+<     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+<       <module name="fiseye.app" />
+<       <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+<       <option name="DEPLOY" value="true" />
+<       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+<       <option name="DEPLOY_AS_INSTANT" value="false" />
+<       <option name="ARTIFACT_NAME" value="" />
+<       <option name="PM_INSTALL_OPTIONS" value="" />
+<       <option name="ALL_USERS" value="false" />
+<       <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+<       <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+<       <option name="CLEAR_APP_STORAGE" value="false" />
+<       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+<       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+<       <option name="MODE" value="default_activity" />
+<       <option name="RESTORE_ENABLED" value="false" />
+<       <option name="RESTORE_FILE" value="" />
+<       <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+<       <option name="CLEAR_LOGCAT" value="false" />
+<       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+<       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+<       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+<       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+<       <option name="DEBUGGER_TYPE" value="Auto" />
+<       <Auto>
+<         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+<         <option name="SHOW_STATIC_VARS" value="true" />
+<         <option name="WORKING_DIR" value="" />
+<         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+<         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+<         <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+<         <option name="DEBUG_SANDBOX_SDK" value="false" />
+<       </Auto>
+<       <Hybrid>
+<         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+<         <option name="SHOW_STATIC_VARS" value="true" />
+<         <option name="WORKING_DIR" value="" />
+<         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+<         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+<         <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+<         <option name="DEBUG_SANDBOX_SDK" value="false" />
+<       </Hybrid>
+<       <Java>
+<         <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+<         <option name="DEBUG_SANDBOX_SDK" value="false" />
+<       </Java>
+<       <Native>
+<         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+<         <option name="SHOW_STATIC_VARS" value="true" />
+<         <option name="WORKING_DIR" value="" />
+<         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+<         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+<         <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+<         <option name="DEBUG_SANDBOX_SDK" value="false" />
+<       </Native>
+<       <Profilers>
+<         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+<         <option name="STARTUP_PROFILING_ENABLED" value="false" />
+<         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+<         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+<         <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+<         <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+<       </Profilers>
+<       <option name="DEEP_LINK" value="" />
+<       <option name="ACTIVITY" value="" />
+<       <option name="ACTIVITY_CLASS" value="" />
+<       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+<       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+<       <method v="2">
+<         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+<       </method>
+<     </configuration>
+<   </component>
+160,161c49,50
+<       <changelist id="585d2556-66b6-497d-8f97-ea65f87c64bb" name="Changes" comment="" />
+<       <created>1754818291440</created>
+---
+>       <changelist id="0eecfeb2-96c5-43d8-88ef-67e7e8d7c131" name="Changes" comment="" />
+>       <created>1754903397977</created>
+164c53
+<       <updated>1754818291440</updated>
+---
+>       <updated>1754903397977</updated>
+167,182d55
+<   </component>
+<   <component name="play_dynamic_filters_status">
+<     <option name="appIdToCheckInfo">
+<       <map>
+<         <entry key="com.example.fiseye">
+<           <value>
+<             <CheckInfo lastCheckTimestamp="1754818383881" />
+<           </value>
+<         </entry>
+<         <entry key="com.example.fiseye.test">
+<           <value>
+<             <CheckInfo lastCheckTimestamp="1754818383880" />
+<           </value>
+<         </entry>
+<       </map>
+<     </option>
+Only in fiseye: .kotlin
+Only in fiseye/app: .cxx
+Only in fiseye/app: build
+diff -r fiseye/app/build.gradle.kts Native_template/app/build.gradle.kts
+2c2
+<     id("com.android.application")
+---
+>     alias(libs.plugins.android.application)
+7c7
+<     namespace = "com.example.fiseye"
+---
+>     namespace = "com.example.native_template"
+11,12c11,12
+<         applicationId = "com.example.fiseye"
+<         minSdk = 21
+---
+>         applicationId = "com.example.native_template"
+>         minSdk = 24
+14d13
+< 
+19,24d17
+< 
+<         externalNativeBuild {
+<             cmake {
+<                 cppFlags.add("")
+<             }
+<         }
+30c23,26
+<             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+---
+>             proguardFiles(
+>                 getDefaultProguardFile("proguard-android-optimize.txt"),
+>                 "proguard-rules.pro"
+>             )
+33c29,35
+< 
+---
+>     compileOptions {
+>         sourceCompatibility = JavaVersion.VERSION_11
+>         targetCompatibility = JavaVersion.VERSION_11
+>     }
+>     kotlinOptions {
+>         jvmTarget = "11"
+>     }
+36a39
+>             version = "3.22.1"
+39,40c42,43
+<     kotlinOptions {
+<         jvmTarget = "1.8"
+---
+>     buildFeatures {
+>         viewBinding = true
+45,47c48
+<     implementation("androidx.appcompat:appcompat:1.6.1")
+<     implementation("com.google.android.material:material:1.10.0")
+<     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+---
+> 
+49c50,56
+< }
+---
+>     implementation(libs.androidx.appcompat)
+>     implementation(libs.material)
+>     implementation(libs.androidx.constraintlayout)
+>     testImplementation(libs.junit)
+>     androidTestImplementation(libs.androidx.junit)
+>     androidTestImplementation(libs.androidx.espresso.core)
+> }
+\ No newline at end of file
+Only in fiseye/app/src/androidTest/java/com/example: fiseye
+Only in Native_template/app/src/androidTest/java/com/example: native_template
+diff -r fiseye/app/src/main/AndroidManifest.xml Native_template/app/src/main/AndroidManifest.xml
+1c1,3
+< <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+---
+> <?xml version="1.0" encoding="utf-8"?>
+> <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+>     xmlns:tools="http://schemas.android.com/tools">
+3,6d4
+<     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+<     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+<         android:maxSdkVersion="32" />
+< 
+8a7,9
+>         android:dataExtractionRules="@xml/data_extraction_rules"
+>         android:fullBackupContent="@xml/backup_rules"
+>         android:icon="@mipmap/ic_launcher"
+11d11
+<         android:icon="@mipmap/ic_launcher"
+13,14c13
+<         android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
+< 
+---
+>         android:theme="@style/Theme.Native_template">
+17c16
+<             android:exported="true"> <!-- REQUIRED for Android 12+ -->
+---
+>             android:exported="true">
+19a19
+> 
+23d22
+< 
+26c25
+< </manifest>
+---
+> </manifest>
+\ No newline at end of file
+diff -r fiseye/app/src/main/cpp/CMakeLists.txt Native_template/app/src/main/cpp/CMakeLists.txt
+12c12
+< project("fiseye")
+---
+> project("native_template")
+diff -r fiseye/app/src/main/cpp/native-lib.cpp Native_template/app/src/main/cpp/native-lib.cpp
+3,7d2
+< #include <vector>
+< #include <cmath>
+< #include <algorithm>
+< #include <fstream>
+< #include <android/log.h>
+9,128d3
+< #define LOG_TAG "NativeLib"
+< #define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+< #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
+< 
+< #define STB_IMAGE_IMPLEMENTATION
+< #include "stb_image.h"
+< 
+< 
+< #pragma pack(push, 1)
+< struct BMPHeader {
+<     uint16_t bfType;
+<     uint32_t bfSize;
+<     uint16_t bfReserved1;
+<     uint16_t bfReserved2;
+<     uint32_t bfOffBits;
+< };
+< struct BMPInfoHeader {
+<     uint32_t biSize;
+<     int32_t biWidth;
+<     int32_t biHeight;
+<     uint16_t biPlanes;
+<     uint16_t biBitCount;
+<     uint32_t biCompression;
+<     uint32_t biSizeImage;
+<     int32_t biXPelsPerMeter;
+<     int32_t biYPelsPerMeter;
+<     uint32_t biClrUsed;
+<     uint32_t biClrImportant;
+< };
+< #pragma pack(pop)
+< 
+< bool save_pixels_as_bmp(const char* filename, const unsigned char* pixels, int width, int height, int channels) {
+<     std::ofstream file(filename, std::ios::binary);
+<     if (!file) {
+<         LOGE("Failed to open BMP file for writing: %s", filename);
+<         return false;
+<     }
+< 
+<     // BMP rows are padded to a multiple of 4 bytes
+<     int row_stride = (width * 3 + 3) & ~3;
+<     uint32_t image_size = row_stride * height;
+< 
+<     BMPHeader header;
+<     header.bfType = 0x4D42; // 'BM'
+<     header.bfSize = sizeof(BMPHeader) + sizeof(BMPInfoHeader) + image_size;
+<     header.bfReserved1 = 0;
+<     header.bfReserved2 = 0;
+<     header.bfOffBits = sizeof(BMPHeader) + sizeof(BMPInfoHeader);
+< 
+<     BMPInfoHeader info;
+<     info.biSize = sizeof(BMPInfoHeader);
+<     info.biWidth = width;
+<     info.biHeight = height; // Positive for bottom-up
+<     info.biPlanes = 1;
+<     info.biBitCount = 24; // 24-bit
+<     info.biCompression = 0; // BI_RGB (uncompressed)
+<     info.biSizeImage = image_size;
+<     info.biXPelsPerMeter = 0; // Or some default like 2835 (72 DPI)
+<     info.biYPelsPerMeter = 0; // Or some default like 2835
+<     info.biClrUsed = 0;
+<     info.biClrImportant = 0;
+< 
+<     file.write(reinterpret_cast<const char*>(&header), sizeof(header));
+<     file.write(reinterpret_cast<const char*>(&info), sizeof(info));
+< 
+<     std::vector<uint8_t> row_buffer(row_stride);
+<     for (int y = 0; y < height; ++y) {
+<         const unsigned char* src_row = pixels + (height - 1 - y) * width * channels; // Read from bottom for BMP
+<         for (int x = 0; x < width; ++x) {
+<             if (channels >= 3) { // RGB or RGBA
+<                 row_buffer[x * 3 + 0] = src_row[x * channels + 2]; // Blue
+<                 row_buffer[x * 3 + 1] = src_row[x * channels + 1]; // Green
+<                 row_buffer[x * 3 + 2] = src_row[x * channels + 0]; // Red
+<             } else { // Grayscale - replicate to B, G, R
+<                 row_buffer[x * 3 + 0] = src_row[x * channels];
+<                 row_buffer[x * 3 + 1] = src_row[x * channels];
+<                 row_buffer[x * 3 + 2] = src_row[x * channels];
+<             }
+<         }
+<         file.write(reinterpret_cast<const char*>(row_buffer.data()), row_stride);
+<     }
+< 
+<     if (!file) {
+<         LOGE("Failed to write BMP data to file: %s", filename);
+<         file.close();
+<         return false;
+<     }
+< 
+<     file.close();
+<     return true;
+< }
+< 
+< 
+< extern "C" JNIEXPORT void JNICALL
+< Java_com_example_fiseye_MainActivity_triggerPhotoSelectionFromCpp(
+<         JNIEnv* env,
+<         jobject thiz) {
+<     LOGD("triggerPhotoSelectionFromCpp called");
+< 
+<     jclass mainActivityClass = env->GetObjectClass(thiz);
+<     if (mainActivityClass == nullptr) {
+<         LOGE("Failed to get MainActivity class");
+<         return;
+<     }
+< 
+<     jmethodID midRequestPickImage = env->GetMethodID(mainActivityClass,
+<                                                      "requestPickImageViaKotlin",
+<                                                      "()V");
+<     if (midRequestPickImage == nullptr) {
+<         LOGE("Failed to get methodID for requestPickImageViaKotlin");
+<         env->DeleteLocalRef(mainActivityClass);
+<         return;
+<     }
+< 
+<     LOGD("Calling requestPickImageViaKotlin from C++");
+<     env->CallVoidMethod(thiz, midRequestPickImage);
+< 
+<     env->DeleteLocalRef(mainActivityClass);
+< }
+< 
+130c5
+< Java_com_example_fiseye_MainActivity_processImageFileInCpp(
+---
+> Java_com_example_native_1template_MainActivity_stringFromJNI(
+132,245c7,10
+<         jobject /* thiz */,
+<         jstring inputFilePath) {
+< 
+<     const char *inputPathChars = env->GetStringUTFChars(inputFilePath, nullptr);
+<     if (inputPathChars == nullptr) {
+<         LOGE("Input file path is null in C++");
+<         return nullptr;
+<     }
+<     std::string inputPathStr(inputPathChars);
+<     LOGD("C++ received input file path: %s", inputPathStr.c_str());
+< 
+<     // Construct processed path to be a .bmp file
+<     std::string processedFilePathString = inputPathStr;
+<     size_t dot_pos = processedFilePathString.rfind('.');
+<     if (dot_pos != std::string::npos) {
+<         processedFilePathString.replace(dot_pos, std::string::npos, "_processed.bmp");
+<     } else {
+<         processedFilePathString += "_processed.bmp";
+<     }
+<     LOGD("C++ constructed processed file path for BMP: %s", processedFilePathString.c_str());
+< 
+<     int width, height, channels;
+<     unsigned char *image_data = stbi_load(inputPathStr.c_str(), &width, &height, &channels, 0);
+< 
+<     if (image_data == nullptr) {
+<         LOGE("Failed to load image using stb_image: %s. Reason: %s", inputPathStr.c_str(), stbi_failure_reason());
+<         env->ReleaseStringUTFChars(inputFilePath, inputPathChars);
+<         return nullptr;
+<     }
+<     LOGD("Loaded image: %d x %d, channels: %d", width, height, channels);
+< 
+<     if (channels < 1) { // Should not happen with stb_image if load is successful
+<         LOGE("Image has unsupported channel count: %d", channels);
+<         stbi_image_free(image_data);
+<         env->ReleaseStringUTFChars(inputFilePath, inputPathChars);
+<         return nullptr;
+<     }
+<     
+<     // Check mem lim
+<     const long MAX_PIXELS = (10000 * 10000); // Max 10k x 10k image
+<     if (static_cast<long>(width) * height > MAX_PIXELS) {
+<         LOGE("Image dimensions too large: %d x %d", width, height);
+<         stbi_image_free(image_data);
+<         env->ReleaseStringUTFChars(inputFilePath, inputPathChars);
+<         return nullptr;
+<     }
+< 
+<     std::vector<uint8_t> processed_pixels(static_cast<size_t>(width) * height * channels);
+< 
+<     // Fisheye
+<     {
+<         float centerX = width / 2.0f;
+<         float centerY = height / 2.0f;
+<         float radius = std::min(centerX, centerY);
+<         float strength = 0.5f; // 0=none, 1=strong. Adjust as needed.
+< 
+<         for (int y_coord = 0; y_coord < height; ++y_coord) {
+<             for (int x_coord = 0; x_coord < width; ++x_coord) {
+<                 float dx = (static_cast<float>(x_coord) - centerX) / radius;
+<                 float dy = (static_cast<float>(y_coord) - centerY) / radius;
+<                 float r_squared = dx * dx + dy * dy;
+< 
+<                 size_t dstIdxBase = (static_cast<size_t>(y_coord) * width + x_coord) * channels;
+< 
+<                 if (r_squared < 1.0f) {
+<                     float r_val = sqrtf(r_squared);
+<                     float nr = powf(r_val, 1.0f - strength);
+<                     float theta = atan2f(dy, dx);
+< 
+<                     float srcX_float = centerX + nr * radius * cosf(theta);
+<                     float srcY_float = centerY + nr * radius * sinf(theta);
+< 
+<                     int srcX = static_cast<int>(roundf(srcX_float));
+<                     int srcY = static_cast<int>(roundf(srcY_float));
+< 
+<                     if (srcX >= 0 && srcX < width && srcY >= 0 && srcY < height) {
+<                         size_t srcIdxBase = (static_cast<size_t>(srcY) * width + srcX) * channels;
+<                         for(int c = 0; c < channels; ++c) {
+<                            if (dstIdxBase + c < processed_pixels.size() && srcIdxBase + c < (static_cast<size_t>(width) * height * channels) ) {
+<                                 processed_pixels[dstIdxBase + c] = image_data[srcIdxBase + c];
+<                            }
+<                         }
+<                     } else { // Pixel is outside bounds after transform, fill with black or edge color
+<                          for(int c = 0; c < channels; ++c) {
+<                             if (dstIdxBase + c < processed_pixels.size()) {
+<                                 processed_pixels[dstIdxBase + c] = 0; // Black
+<                             }
+<                         }
+<                     }
+<                 } else { // Outside the fisheye circle, copy original pixel
+<                     size_t srcIdxBase = (static_cast<size_t>(y_coord) * width + x_coord) * channels;
+<                      for(int c = 0; c < channels; ++c) {
+<                         if (dstIdxBase + c < processed_pixels.size() && srcIdxBase + c < (static_cast<size_t>(width) * height * channels)) {
+<                              processed_pixels[dstIdxBase + c] = image_data[srcIdxBase + c];
+<                         }
+<                     }
+<                 }
+<             }
+<         }
+<     }
+< 
+<     stbi_image_free(image_data); // Free original image data loaded by stb_image
+< 
+< 
+<     if (!save_pixels_as_bmp(processedFilePathString.c_str(), processed_pixels.data(), width, height, channels)) {
+<         LOGE("Failed to save processed image as BMP: %s", processedFilePathString.c_str());
+<         env->ReleaseStringUTFChars(inputFilePath, inputPathChars);
+<         return nullptr; // Return null if BMP saving fails
+<     }
+< 
+<     env->ReleaseStringUTFChars(inputFilePath, inputPathChars);
+<     return env->NewStringUTF(processedFilePathString.c_str());
+< }
+< 
+---
+>         jobject /* this */) {
+>     std::string hello = "Hello from C++";
+>     return env->NewStringUTF(hello.c_str());
+> }
+\ No newline at end of file
+Only in fiseye/app/src/main/cpp: stb_image.h
+Only in fiseye/app/src/main/java/com/example: fiseye
+Only in Native_template/app/src/main/java/com/example: native_template
+diff -r fiseye/app/src/main/res/layout/activity_main.xml Native_template/app/src/main/res/layout/activity_main.xml
+2c2,4
+< <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+---
+> <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>     xmlns:app="http://schemas.android.com/apk/res-auto"
+>     xmlns:tools="http://schemas.android.com/tools"
+5,6c7
+<     android:orientation="vertical"
+<     android:padding="16dp">
+---
+>     tools:context=".MainActivity">
+8,18c9,11
+<     <ImageView
+<         android:id="@+id/imageView"
+<         android:layout_width="match_parent"
+<         android:layout_height="0dp"
+<         android:layout_weight="1"
+<         android:scaleType="fitCenter"
+<         android:background="#CCCCCC" />
+< 
+<     <Button
+<         android:id="@+id/selectPhotoBtn"
+<         android:layout_width="match_parent"
+---
+>     <TextView
+>         android:id="@+id/sample_text"
+>         android:layout_width="wrap_content"
+20,21c13,19
+<         android:text="Select Photo" />
+< </LinearLayout>
+---
+>         android:text="Hello World!"
+>         app:layout_constraintBottom_toBottomOf="parent"
+>         app:layout_constraintEnd_toEndOf="parent"
+>         app:layout_constraintStart_toStartOf="parent"
+>         app:layout_constraintTop_toTopOf="parent" />
+> 
+> </androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+diff -r fiseye/app/src/main/res/values/strings.xml Native_template/app/src/main/res/values/strings.xml
+2c2
+<     <string name="app_name">fiseye</string>
+---
+>     <string name="app_name">Native_template</string>
+diff -r fiseye/app/src/main/res/values/themes.xml Native_template/app/src/main/res/values/themes.xml
+3c3
+<     <style name="Theme.Fiseye" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+---
+>     <style name="Theme.Native_template" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+diff -r fiseye/app/src/main/res/values-night/themes.xml Native_template/app/src/main/res/values-night/themes.xml
+3c3
+<     <style name="Theme.Fiseye" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+---
+>     <style name="Theme.Native_template" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+Only in fiseye/app/src/test/java/com/example: fiseye
+Only in Native_template/app/src/test/java/com/example: native_template
+diff -r fiseye/gradle/libs.versions.toml Native_template/gradle/libs.versions.toml
+23c23
+< kotlin-android = { id = "org.jetbrains.kotlin.android", version = "2.2.0" }
+---
+> kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+diff -r fiseye/gradle/wrapper/gradle-wrapper.properties Native_template/gradle/wrapper/gradle-wrapper.properties
+1c1
+< #Sun Aug 10 16:31:31 ICT 2025
+---
+> #Mon Aug 11 16:09:58 ICT 2025
+diff -r fiseye/settings.gradle.kts Native_template/settings.gradle.kts
+22c22
+< rootProject.name = "fiseye"
+---
+> rootProject.name = "Native_template"
